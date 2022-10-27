@@ -1,0 +1,11 @@
+stages:
+  - build
+  - test
+
+image: node:latest
+
+build gatsby
+  stage: build
+  script:
+    - npm install
+    - npm install -g gatsby-cli

@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: node:latest
+  vmImage: node:19.0.0
 
 stages:
 - stage: Build

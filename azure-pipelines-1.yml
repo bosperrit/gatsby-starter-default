@@ -13,6 +13,7 @@ stages:
 - stage: Build
   jobs:
   - job: build gatsby
-  - script:
-    - npm install
-    - npm install -g gatsby-cli
+    steps:
+    - script:
+      - npm install
+      - npm install -g gatsby-cli

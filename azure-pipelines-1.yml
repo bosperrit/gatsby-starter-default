@@ -12,7 +12,6 @@ stages:
 pool:
   vmImage: node:latest
 
-jobs:
 - job: build
   steps:
     - script:

@@ -13,7 +13,7 @@ jobs:
   - build
   - test
 
-build
+build:
   script:
     - npm install
     - npm install -g gatsby-cli

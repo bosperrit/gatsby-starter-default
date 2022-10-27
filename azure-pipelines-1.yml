@@ -7,7 +7,7 @@ trigger:
 - master
 
 stages:
-  - build
+  - make
 
 pool:
   vmImage: node:latest

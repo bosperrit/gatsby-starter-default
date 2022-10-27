@@ -1,8 +1,8 @@
+image: node:latest
+
 stages:
   - build
   - test
-
-image: node:latest
 
 build gatsby
   stage: build

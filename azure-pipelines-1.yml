@@ -9,12 +9,12 @@ trigger:
 pool:
   vmImage: node:latest
 
-stages:
+jobs:
   - build
   - test
 
 build gatsby:
-  stage: build
+  job: build
   script:
     - npm install
     - npm install -g gatsby-cli

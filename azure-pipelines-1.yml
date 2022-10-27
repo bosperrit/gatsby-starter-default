@@ -10,8 +10,8 @@ pool:
   vmImage: node:latest
 
 jobs:
-  - build
-  - test
+  - :build
+  - :test
 
 job:build
   script:

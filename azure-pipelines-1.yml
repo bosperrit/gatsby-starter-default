@@ -6,11 +6,12 @@
 trigger:
 - master
 
+pool:
+  vmImage: 'Ubuntu-22.04'
+
 stages:
 - stage: Build
   jobs:
   - job: build_gatsby
-    pool:
-      vmImage: 'node-latest'
     steps:
     - script: npm install

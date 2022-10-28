@@ -16,7 +16,6 @@ stages:
     steps:
     - script: |
       sudo apt-get update
-    - script: |
       sudo apt-get install git
       git config --global user.name "jbos"
       git config --global user.email "j.bos@perrit.nl"

@@ -6,10 +6,10 @@
 trigger:
 - master
 
-stages:
-- stage: Build
 pool:
   vmImage: 'node-latest'
+stages:
+- stage: Build
   jobs:
   - job: build_gatsby
 

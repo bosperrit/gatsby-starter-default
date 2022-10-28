@@ -6,12 +6,12 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'node-latest'
-
 stages:
 - stage: Build
+pool:
+  vmImage: 'node-latest'
   jobs:
   - job: build_gatsby
+
     steps:
     - script: npm install

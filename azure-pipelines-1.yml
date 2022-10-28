@@ -15,5 +15,9 @@ stages:
   - job: build_gatsby
     steps:
     - script: |
+      sudo apt-get update
+      sudo apt-get install git
+      git config --global user.name "jbos"
+      git config --global user.email "j.bos@perrit.nl"
       npm install
       npm install -g gatsby-cli

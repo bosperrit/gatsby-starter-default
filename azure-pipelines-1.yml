@@ -23,5 +23,5 @@ stages:
       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
       nvm install 19
       nvm use 19
-      npm install
-      npm install -g gatsby-cli
+      call npm install
+      call npm install -g gatsby-cli

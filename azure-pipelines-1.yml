@@ -16,4 +16,4 @@ stages:
     steps:
     - script:
       npm install
-      npm install -g gatsby-cli
+      npm install '-g gatsby-cli'

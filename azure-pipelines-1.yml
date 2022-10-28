@@ -20,8 +20,8 @@ stages:
         - git config --global user.name "jbos"
         - git config --global user.email "j.bos@perrit.nl"
         - sudo apt-get install curl
-      - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
-      - nvm install 19
-      - nvm use 19
-      - call npm install
-      - call npm install -g gatsby-cli
+        - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+        - nvm install 19
+        - nvm use 19
+        - call npm install
+        - call npm install -g gatsby-cli

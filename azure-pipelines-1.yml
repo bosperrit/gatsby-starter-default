@@ -15,4 +15,5 @@ stages:
   - job: build_gatsby
     steps:
     - script: |
+      npm install
       npm install -g gatsby-cli

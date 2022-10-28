@@ -20,7 +20,6 @@ stages:
         - git config --global user.name "jbos"
         - git config --global user.email "j.bos@perrit.nl"
         - sudo apt-get install curl
-        - sudo apt install bash
         - bash | curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh
         - nvm install 19
         - nvm use 19

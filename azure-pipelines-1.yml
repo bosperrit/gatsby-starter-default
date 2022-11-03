@@ -17,12 +17,12 @@ stages:
     - script: |
         - sudo apt-get update
         - sudo apt-get install git
-        - sudo apt update
+        - sudo apt-get -y upgrade
         - sudo apt install bash
         - git config --global user.name "jbos"
         - git config --global user.email "j.bos@perrit.nl"
         - sudo apt-get install curl
-        - bash | curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh
+        - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
         - nvm install 19
         - nvm use 19
         - call npm install

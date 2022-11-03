@@ -17,6 +17,7 @@ stages:
     - script: |
         - sudo apt-get update
         - sudo apt-get install git
+        - sudo apt install bash
         - git config --global user.name "jbos"
         - git config --global user.email "j.bos@perrit.nl"
         - sudo apt-get install curl
